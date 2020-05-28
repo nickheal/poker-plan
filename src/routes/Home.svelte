@@ -27,7 +27,7 @@
 		sessionUser(newSession.key).set({
 			[userId]: true
 		});
-		navigate(`/sessions/${newSession.key}`);
+		navigate(`/poker-plan/sessions/${newSession.key}`);
 	}
 
 	function onJoinSession(e) {
