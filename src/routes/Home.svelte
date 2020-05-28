@@ -32,7 +32,7 @@
 
 	function onJoinSession(e) {
 		e.preventDefault();
-		navigate(`/sessions/${joinSessionId}`);
+		navigate(`/poker-plan/sessions/${joinSessionId}`);
 	}
 </script>
 

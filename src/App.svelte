@@ -14,7 +14,7 @@
 {#if !userId}
 	<p>Loading...</p>
 {:else}
-	<Router url={url}>
+	<Router basepath="/poker-plan" url={url}>
 		<Route path="/sessions/:id" let:params>
 			<Session sessionId={params.id} userId={userId} />
 		</Route>
